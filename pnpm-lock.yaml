@@ -12,8 +12,8 @@ importers:
         specifier: 0.2.1
         version: 0.2.1
       '@compas-oscd/open-scd':
-        specifier: 0.35.2
-        version: 0.35.2
+        specifier: 0.35.3
+        version: 0.35.3
       '@compas-oscd/plugins':
         specifier: 0.1.2
         version: 0.1.2
@@ -861,6 +861,9 @@ packages:
 
   '@compas-oscd/open-scd@0.35.2':
     resolution: {integrity: sha512-CTI610b1nycODZKIwVQEBYaQbnb91iC7S0Iq6v3u3Uk2HjAx2DvecH0LEvZP35/L2mo81Sgcv8nOndNKgoxDAA==}
+
+  '@compas-oscd/open-scd@0.35.3':
+    resolution: {integrity: sha512-L5TuYrwvEX52xtXo2hBHeNbl4lBtTcy+g2B4HMcH8TtTrnT644w7rzBqmBY+BleW1kHsE2+uXv77zSTEl1h/hw==}
 
   '@compas-oscd/plugins@0.1.2':
     resolution: {integrity: sha512-moxSZPwXrGiNr0zvJQWARmkiL4mh7ntyARPc9fPFGKIxcj2j47q265aMnIJqM0p0JI9LNSMSFO0JEPoyIr4r/Q==}
@@ -6732,6 +6735,40 @@ snapshots:
       lit: 2.8.0
 
   '@compas-oscd/open-scd@0.35.2':
+    dependencies:
+      '@compas-oscd/core': 0.1.23
+      '@compas-oscd/xml': 0.0.1
+      '@material/mwc-button': 0.22.1
+      '@material/mwc-checkbox': 0.22.1
+      '@material/mwc-dialog': 0.22.1
+      '@material/mwc-drawer': 0.22.1
+      '@material/mwc-fab': 0.22.1
+      '@material/mwc-formfield': 0.22.1
+      '@material/mwc-icon': 0.22.1
+      '@material/mwc-icon-button': 0.22.1
+      '@material/mwc-icon-button-toggle': 0.22.1
+      '@material/mwc-linear-progress': 0.22.1
+      '@material/mwc-list': 0.22.1
+      '@material/mwc-menu': 0.22.1
+      '@material/mwc-select': 0.22.1
+      '@material/mwc-snackbar': 0.22.1
+      '@material/mwc-switch': 0.22.1
+      '@material/mwc-tab': 0.22.1
+      '@material/mwc-tab-bar': 0.22.1
+      '@material/mwc-textarea': 0.22.1
+      '@material/mwc-textfield': 0.22.1
+      '@material/mwc-top-app-bar-fixed': 0.22.1
+      '@openscd/oscd-api': 0.1.6
+      '@openscd/oscd-editor': 1.8.0
+      ace-custom-element: 1.6.5
+      lit: 2.8.0
+      lit-element: 2.5.1
+      lit-html: 1.4.1
+      lit-translate: 1.2.1
+      marked: 4.3.0
+      panzoom: 9.4.4
+
+  '@compas-oscd/open-scd@0.35.3':
     dependencies:
       '@compas-oscd/core': 0.1.23
       '@compas-oscd/xml': 0.0.1
