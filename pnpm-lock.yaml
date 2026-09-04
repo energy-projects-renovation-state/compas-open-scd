@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@compas-oscd/core':
-        specifier: 0.2.1
-        version: 0.2.1
+        specifier: 0.2.3
+        version: 0.2.3
       '@compas-oscd/open-scd':
         specifier: 0.35.3
         version: 0.35.3
@@ -852,9 +852,6 @@ packages:
 
   '@compas-oscd/core@0.1.23':
     resolution: {integrity: sha512-ZYz5P0mbi3D9PUmZQ6nZcxT7+TVghM/AKqRqCld8qvPRN1KOnkTD1XsXy3smsbYsf3iZbwPlYJIiZmiTiP6EEw==}
-
-  '@compas-oscd/core@0.2.1':
-    resolution: {integrity: sha512-pA1TtMSD+j13FDLiLalK08st7bq+tNE5lmwSQBDDmK0+yzSLUC8MR3IqdBJobNLUhqcR2v5ES8xIR5qbuy1ylg==}
 
   '@compas-oscd/core@0.2.3':
     resolution: {integrity: sha512-SfuKaABmWBc7VA84CHeS4xhJUqGkhD3UFWNNhTZ9gXQ4BxjrDFYqWw61Kanv007G27v98LyZnTgvlDvjPP/b3g==}
@@ -6711,13 +6708,6 @@ snapshots:
       picocolors: 1.1.1
 
   '@compas-oscd/core@0.1.23':
-    dependencies:
-      '@lit/localize': 0.11.4
-      '@open-wc/lit-helpers': 0.5.1(lit@2.8.0)
-      '@openscd/oscd-api': 0.1.6
-      lit: 2.8.0
-
-  '@compas-oscd/core@0.2.1':
     dependencies:
       '@lit/localize': 0.11.4
       '@open-wc/lit-helpers': 0.5.1(lit@2.8.0)
