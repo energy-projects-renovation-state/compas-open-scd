@@ -178,8 +178,8 @@ importers:
         specifier: 0.24.8
         version: 0.24.8(typescript@5.9.3)
       typedoc-plugin-markdown:
-        specifier: 3.17.1
-        version: 3.17.1(typedoc@0.24.8(typescript@5.9.3))
+        specifier: 4.14.1
+        version: 4.14.1(typedoc@0.24.8(typescript@5.9.3))
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -5368,10 +5368,11 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typedoc-plugin-markdown@3.17.1:
-    resolution: {integrity: sha512-QzdU3fj0Kzw2XSdoL15ExLASt2WPqD7FbLeaqwT70+XjKyTshBnUlQA5nNREO1C2P8Uen0CDjsBLMsCQ+zd0lw==}
+  typedoc-plugin-markdown@4.14.1:
+    resolution: {integrity: sha512-24XX0oqyBsjBIBNoSH4wbgQkouci/CmgmO1ZBSaVkrcflqXFL2PQ5zFOpkz+Ewow5xQ3q2You+wrcmilNepRKg==}
+    engines: {node: '>= 18'}
     peerDependencies:
-      typedoc: '>=0.24.0'
+      typedoc: 0.28.x
 
   typedoc@0.24.8:
     resolution: {integrity: sha512-ahJ6Cpcvxwaxfu4KtjA8qZNqS43wYt6JL27wYiIgl1vd38WW/KWX11YuAeZhuz9v+ttrutSsgK+XO1CjL1kA3w==}
@@ -12419,9 +12420,8 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typedoc-plugin-markdown@3.17.1(typedoc@0.24.8(typescript@5.9.3)):
+  typedoc-plugin-markdown@4.14.1(typedoc@0.24.8(typescript@5.9.3)):
     dependencies:
-      handlebars: 4.7.9
       typedoc: 0.24.8(typescript@5.9.3)
 
   typedoc@0.24.8(typescript@5.9.3):
